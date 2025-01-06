@@ -1,0 +1,32 @@
+{
+  "students": [
+    {
+      "id": "5a86",
+      "name": "Kalimi Sultan",
+      "roll": "1001",
+      "class": "ten",
+      "photo": "https://res.cloudinary.com/dbprzhz68/image/upload/v1736195932/dqopr232dlvrvimco44a.jpg"
+    },
+    {
+      "id": "cea4",
+      "name": "Jesmin Akter",
+      "roll": "1002",
+      "class": "nine",
+      "photo": "https://res.cloudinary.com/dbprzhz68/image/upload/v1736195953/snc5wzf2uhrf23cxwb4f.jpg"
+    },
+    {
+      "id": "76c5",
+      "name": "Sojib Islam",
+      "roll": "1003",
+      "class": "seven",
+      "photo": "https://res.cloudinary.com/dbprzhz68/image/upload/v1736196002/xortwzuzuark96m6ycnu.jpg"
+    },
+    {
+      "id": "31de",
+      "name": "Kalimi",
+      "roll": "1002",
+      "class": "eight",
+      "photo": "https://res.cloudinary.com/dbprzhz68/image/upload/v1736196108/sqfvzsodlw9gxxercnlg.jpg"
+    }
+  ]
+}

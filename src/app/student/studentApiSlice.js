@@ -45,3 +45,18 @@ export const deleteStudent = createAsyncThunk(
     }
   }
 );
+
+/**
+ * student data Update
+ */
+export const updateStudent = createAsyncThunk(
+  "students/updateStudent",
+  async (data) => {
+    try {
+      const response = await API.put(`/students/${data.id}`, data);
+      return response.data;
+    } catch (error) {
+      throw new Error(error.message);
+    }
+  }
+);

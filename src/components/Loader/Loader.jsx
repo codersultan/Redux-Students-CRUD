@@ -1,3 +1,7 @@
+/**
+ * Small Loader for Button
+ * @returns
+ */
 const Loader = () => {
   return (
     <>

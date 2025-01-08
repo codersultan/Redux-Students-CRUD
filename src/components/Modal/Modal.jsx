@@ -1,6 +1,6 @@
 import { LiaTimesSolid } from "react-icons/lia";
 
-const Modal = ({ title, children }) => {
+const Modal = ({ title, width = "30%", children }) => {
   return (
     <div
       className="modal-wrapper toggle-close bg-white/80 fixed left-0 top-0 w-full h-full flex justify-center items-center"
@@ -8,8 +8,14 @@ const Modal = ({ title, children }) => {
       aria-modal="true"
       aria-labelledby="modal-title"
     >
-      <div className="modal w-10/12 md:w-3/12 bg-white shadow-lg rounded-xl">
-        <div className="modal-head px-5 py-3 border-b flex justify-between items-center">
+      <div
+        className={`modal lg:w-[${width}] md:w-3/12  bg-white shadow-lg rounded-xl`}
+      >
+        <div
+          className={`modal-head px-5 pt-3 ${
+            title ? "border-b pb-3" : null
+          } flex justify-between items-center`}
+        >
           <h2 id="modal-title" className="text-xl font-semibold">
             {title && title}
           </h2>
